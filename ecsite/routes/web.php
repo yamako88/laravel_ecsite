@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'ItemController@index');
+Route::get('/cartitem', 'CartItemController@index');
 
 Auth::routes();
 
