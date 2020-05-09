@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba13bfdb-0ca5-4bee-b610-2b4d7b82466d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ecsite/resources/views/item/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecsite/resources/views/item/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecsite/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/ecsite/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecsite/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/ecsite/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +24,7 @@
           <entry key="cnf" value="1" />
           <entry key="env" value="2" />
           <entry key="gitignore" value="1" />
-          <entry key="php" value="15" />
+          <entry key="php" value="18" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
@@ -36,7 +32,7 @@
         <counts>
           <entry key="Blade" value="3" />
           <entry key="Dockerfile" value="1" />
-          <entry key="PHP" value="12" />
+          <entry key="PHP" value="15" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="YAML" value="1" />
         </counts>
@@ -44,13 +40,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="env" value="49" />
-          <entry key="php" value="19" />
+          <entry key="php" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="7" />
-          <entry key="PHP" value="12" />
+          <entry key="Blade" value="8" />
+          <entry key="PHP" value="39" />
           <entry key="PLAIN_TEXT" value="49" />
         </counts>
       </usages-collector>
@@ -58,24 +54,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecsite/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecsite/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecsite/app/Http/Controllers/ItemController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -94,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecsite/resources/views/item/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+            <state relative-caret-position="615">
+              <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -115,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecsite/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="195">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -133,8 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecsite/app/Http/Controllers/CartItemController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+            <state relative-caret-position="176">
+              <caret line="40" column="40" lean-forward="true" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
               <folding>
                 <element signature="e#40#57#0#PHP" expanded="true" />
               </folding>
@@ -142,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecsite/database/seeds/ItemsTableSeeder.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ecsite/database/migrations/2020_05_09_021254_cart_items_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="363" column="5" lean-forward="true" selection-start-line="363" selection-start-column="5" selection-end-line="363" selection-end-column="5" />
+            <state relative-caret-position="465">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -165,7 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ecsite/database/migrations/2020_05_07_153457_create_items_table.php" />
         <option value="$PROJECT_DIR$/ecsite/app/Http/Controllers/Auth/RegisterController.php" />
         <option value="$PROJECT_DIR$/ecsite/app/Http/Controllers/Auth/LoginController.php" />
         <option value="$PROJECT_DIR$/ecsite/app/Http/Controllers/Auth/ResetPasswordController.php" />
@@ -174,10 +151,12 @@
         <option value="$PROJECT_DIR$/ecsite/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/ecsite/app/Http/Controllers/ItemController.php" />
         <option value="$PROJECT_DIR$/ecsite/resources/views/item/show.blade.php" />
-        <option value="$PROJECT_DIR$/ecsite/routes/web.php" />
         <option value="$PROJECT_DIR$/ecsite/app/CartItem.php" />
+        <option value="$PROJECT_DIR$/ecsite/routes/web.php" />
         <option value="$PROJECT_DIR$/ecsite/app/Http/Controllers/CartItemController.php" />
         <option value="$PROJECT_DIR$/ecsite/resources/views/item/index.blade.php" />
+        <option value="$PROJECT_DIR$/ecsite/database/migrations/2020_05_07_153457_create_items_table.php" />
+        <option value="$PROJECT_DIR$/ecsite/database/migrations/2020_05_09_021254_cart_items_table.php" />
       </list>
     </option>
   </component>
@@ -251,6 +230,13 @@
               <item name="ecsite" type="462c0819:PsiDirectoryNode" />
               <item name="ecsite" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ecsite" type="462c0819:PsiDirectoryNode" />
+              <item name="ecsite" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
               <item name="seeds" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -296,7 +282,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="ItemController&#9;null&#9;null&#10;RegisterController&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="works&#9;FILE&#9;file:///Users/yamauchiayaka/rebuild_bootcamp/techpit/ecsite/.idea/workspace.xml&#10;ItemController&#9;null&#9;null&#10;RegisterController&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -324,19 +310,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588863898832</updated>
-      <workItem from="1588863900643" duration="9726000" />
+      <workItem from="1588863900643" duration="11376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9726000" />
+    <option name="totallyTimeSpent" value="11376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30543634" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -363,13 +349,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ecsite/database/migrations/2020_05_07_153457_create_items_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ecsite/database/factories/UserFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -474,8 +453,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ecsite/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="195">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecsite/app/Http/Controllers/CartItemController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="40" column="40" lean-forward="true" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+          <folding>
+            <element signature="e#40#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecsite/resources/views/item/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -486,20 +482,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecsite/app/Http/Controllers/CartItemController.php">
+    <entry file="file://$PROJECT_DIR$/ecsite/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecsite/database/migrations/2020_05_07_153457_create_items_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
-          <folding>
-            <element signature="e#40#57#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecsite/resources/views/item/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/ecsite/database/migrations/2020_05_09_021254_cart_items_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        <state relative-caret-position="465">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
